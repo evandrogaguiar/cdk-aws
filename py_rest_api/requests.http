@@ -1,0 +1,4 @@
+@url = https://lb7hxijm5i.execute-api.us-east-1.amazonaws.com/prod/
+
+GET {{url}}/empl
+###
