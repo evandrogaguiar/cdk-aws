@@ -44,7 +44,7 @@ O AWS CDK não é um serviço da AWS, mas sim um cliente, uma abstração latera
 
 ### Repositórios/Projetos
 
-* `py_starter`  Criação de um bucket e uma função Lambda que retorna o ARN do Bucket
+* `py-starter`  Criação de um bucket e uma função Lambda que retorna o ARN do Bucket
 * `py_rest_api` Criação de uma API Gateway, tabela DynamoDB e uma função Lambda
 * `py_cw_metrics`   Criação de alarmes no CloudWatch, tópico SNS e uma função Lambda que envia estes alarmes para um webhook (Usei o Slack)
 
