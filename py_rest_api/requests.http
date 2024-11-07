@@ -1,4 +1,13 @@
 @url = https://lb7hxijm5i.execute-api.us-east-1.amazonaws.com/prod/
 
-GET {{url}}/empl
+GET {{url}}/empl?id=1cc8bbf5-fde0-4975-9b8e-5be682ddefd0
+###
+
+POST {{url}}/empl
+Content-Type: application/json
+
+{
+    "name": "Evandro",
+    "possition": "DevOps Enginner"
+}
 ###
