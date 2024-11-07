@@ -1,10 +1,6 @@
-from aws_cdk import (
-    Stack,
-    aws_apigateway,
-    aws_lambda,
-    aws_dynamodb
-)
+from aws_cdk import Stack, aws_apigateway, aws_lambda, aws_dynamodb
 from constructs import Construct
+
 
 class PyRestApiStack(Stack):
 
@@ -19,7 +15,7 @@ class PyRestApiStack(Stack):
             ),
             billing=aws_dynamodb.Billing.on_demand(),
         )
-        
+
         empl_lambda = aws_lambda.Function(
             self,
             "EmplLambda",
