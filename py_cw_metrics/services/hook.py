@@ -6,7 +6,7 @@ http = urllib3.PoolManager()
 
 def handler(event, context):
     print("calling slack!!!")
-    url = "https://hooks.slack.com/services/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"
+    url = ""
     msg = {
         "channel": "#aws-cdk-events",
         "text": event["Records"][0]["Sns"]["Message"],
