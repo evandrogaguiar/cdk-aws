@@ -17,27 +17,41 @@ O AWS CDK não é um serviço da AWS, mas sim um cliente, uma abstração latera
 | Ubuntu 22.04 | 3.10.12 | 1.35.15 | VsCode | 2.166.0 |
 
 **Requirements**
-* `node.js` For install [Node.js](https://nodejs.org/en/download/package-manager)
-* `AWS CLI`For install [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
-* `Python`  For install [Python](https://www.python.org/downloads/)
+
+[![My Skills](https://skillicons.dev/icons?i=nodejs&perline=1)](https://skillicons.dev)  [Node.js](https://nodejs.org/en/download/package-manager)
+
+[![My Skills](https://skillicons.dev/icons?i=aws&perline=1)](https://skillicons.dev)  [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+
+[![My Skills](https://skillicons.dev/icons?i=python&perline=1)](https://skillicons.dev)  [Python](https://www.python.org/downloads/)
+
 
 **Instalação AWS CDK CLI**
 
-``` npm install -g aws-cdk ```
+```bash
+npm install -g aws-cdk 
+```
 
 **Verificar a Instalação**
 
-``` cdk --version ```
+```bash 
+cdk --version 
+```
 
 **Preparar o Ambiente AWS para utilização do CDK**
 
-``` cdk bootstrap $AWS_ACCOUNT_ID/$AWS_DEFAULT_REGION ```
+``` bash 
+cdk bootstrap $AWS_ACCOUNT_ID/$AWS_DEFAULT_REGION 
+```
 
 **Exemplo de Inicialização (Python)**
 
-` mkdir app && cd app `
+```bash
+ mkdir app && cd app 
+ ```
 
-``` cdk init app --language python ```
+```bash 
+cdk init app --language python 
+```
 
 
 
