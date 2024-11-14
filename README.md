@@ -47,7 +47,7 @@ cdk bootstrap $AWS_ACCOUNT_ID/$AWS_DEFAULT_REGION
 
 ```bash
  mkdir app && cd app 
- ```
+```
 
 ```bash 
 cdk init app --language python 
